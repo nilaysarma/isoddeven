@@ -1,2 +1,2 @@
 # isoddeven
-A fun Python package to find out if a number is odd or even vouched at [mewtru.com/is-odd](https://mewtru.com/is-odd)
+[isoddeven](https://pypi.org/project/isoddeven) is a Python package to find out if a number is odd or even.

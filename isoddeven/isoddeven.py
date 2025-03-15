@@ -1,26 +1,32 @@
-import requests
-import json
-
 def is_odd(n: int) -> bool:
-    response = requests.get(f"https://is-odd-api.mewtru.com/v1/numbers/{n}")
-    json_data = json.loads(response.text)
-    state = json_data["state"]
-    if state == "odd":
-        return True
-    else:
-        return False
+    try:
+        if n % 2 != 0:
+            return True
+        else:
+            return False
+    except TypeError:
+        print("Expected an integer value.")
 
 def is_even(n: int) -> bool:
-    response = requests.get(f"https://is-odd-api.mewtru.com/v1/numbers/{n}")
-    json_data = json.loads(response.text)
-    state = json_data["state"]
-    if state == "even":
-        return True
-    else:
-        return False
+    try:
+        if n % 2 == 0:
+            return True
+        else:
+            return False
+    except TypeError:
+        print("Expected an integer value.")
 
 def state(n: int) -> str:
-    response = requests.get(f"https://is-odd-api.mewtru.com/v1/numbers/{n}")
-    json_data = json.loads(response.text)
-    state = json_data["state"]
-    return state
+    try:
+        if is_odd(n):
+            return "odd"
+        elif is_even(n):
+            return "even"
+    except TypeError:
+        print("Expected an integer value.")
+
+if __name__ == "__main__":
+    # This code will only execute when the module is run as a standalone script.
+    print("Executing module as a standalone script")
+    number = int(input("Enter a number: "))
+    print(f"{number} is ", state(number))
