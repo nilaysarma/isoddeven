@@ -1,18 +1,12 @@
 def is_odd(n: int) -> bool:
     try:
-        if n % 2 != 0:
-            return True
-        else:
-            return False
+        return n % 2 != 0
     except TypeError:
         print("Expected an integer value.")
 
 def is_even(n: int) -> bool:
     try:
-        if n % 2 == 0:
-            return True
-        else:
-            return False
+        return n % 2 == 0
     except TypeError:
         print("Expected an integer value.")
 
