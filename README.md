@@ -1,11 +1,11 @@
 # isoddeven
 ## A Python package to check if a number is odd or even.
 
-[![PyPI - Status](https://img.shields.io/pypi/status/isoddeven)](https://pypi.org/project/isoddeven/)
 [![PyPI - Version](https://img.shields.io/pypi/v/isoddeven)](https://pypi.org/project/isoddeven/)
 [![Pepy Total Downloads](https://img.shields.io/pepy/dt/isoddeven)](https://pypi.org/project/isoddeven/)
 [![PyPI - License](https://img.shields.io/pypi/l/isoddeven)](https://pypi.org/project/isoddeven/)
 [![GitHub deployments](https://img.shields.io/github/deployments/nilaysarma/isoddeven/release)](https://github.com/nilaysarma/isoddeven/deployments/release)
+[![PyPI - Status](https://img.shields.io/pypi/status/isoddeven)](https://pypi.org/project/isoddeven/)
 
 ## 🚀 Installation
 You can install the package using pip:
@@ -31,4 +31,4 @@ print(isoddeven.state(6)) # even
 ```
 
 ## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/nilaysarma/isoddeven/blob/main/LICENSE) file for details.

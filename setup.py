@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='isoddeven',
-    version='1.0.0',
+    version='1.0.1',
     description='A Python package to check if a number is odd or even.',
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
@@ -12,12 +12,13 @@ setup(
     license="MIT",
     url="https://github.com/nilaysarma/isoddeven",
     classifiers=[
-        "Topic :: Software Development :: Libraries :: Python Modules",
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
-        "Programming Language :: Python :: 3",
+        "Intended Audience :: Education",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3",
+        "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     project_urls={
         "Repository": "https://github.com/nilaysarma/isoddeven",
