@@ -1,4 +1,7 @@
-"""isoddeven - A Python package to check if a number is odd or even."""
+"""isoddeven
+=====
+A Python package to check if a number is odd or even.
+"""
 
 def isodd(n: int) -> bool:
     """Return true if the number is odd.
