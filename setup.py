@@ -2,8 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name='isoddeven',
-    version='0.4.2',
+    version='1.0.0',
     description='A Python package to check if a number is odd or even.',
+    long_description=open("README.md", encoding="utf-8").read(),
+    long_description_content_type="text/markdown",
     author='Nilay Sarma',
     packages=find_packages(),
     install_requires=[],
@@ -20,5 +22,5 @@ setup(
     project_urls={
         "Repository": "https://github.com/nilaysarma/isoddeven",
         "Release Notes": "https://github.com/nilaysarma/isoddeven/releases/latest",
-    },
+    }
 )
