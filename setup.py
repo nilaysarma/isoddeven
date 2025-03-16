@@ -13,7 +13,7 @@ setup(
     url="https://github.com/nilaysarma/isoddeven",
     classifiers=[
         "Topic :: Software Development :: Libraries :: Python Modules",
-        "Development Status :: 4 - Beta",
+        "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
