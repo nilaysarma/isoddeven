@@ -1,3 +1,8 @@
+"""isoddeven Command Line Interface (CLI)
+=====
+This module allows you to check if a number is odd or even through the terminal.
+"""
+
 import argparse
 from isoddeven import isodd, iseven, state
 
