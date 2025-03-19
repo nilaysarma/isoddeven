@@ -30,5 +30,39 @@ print(isoddeven.state(5)) # odd
 print(isoddeven.state(6)) # even
 ```
 
+## 🔷 Run in terminal
+You can run it in your terminal by using it's Command Line Interface (CLI) commands:
+```sh
+# Checks if the number is odd or even
+isoddeven <number>
+
+# Examples
+isoddeven 7
+7 is odd
+
+isoddeven 10
+10 is even
+```
+
+You can use `-o` (or `--odd`) to check if the number is odd, and `-e` (or `--even`) to check if it's even. These return True or False.
+```sh
+# Odd Check
+isoddeven -o <number>
+
+# Even check
+isoddeven -e <number>
+
+# Examples
+isoddeven -o 1
+True
+isoddeven -o 2
+False
+
+isoddeven -e 4
+True
+isoddeven -e 5
+False
+```
+
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/nilaysarma/isoddeven/blob/main/LICENSE) file for details.
