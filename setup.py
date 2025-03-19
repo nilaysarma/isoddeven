@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='isoddeven',
-    version='1.0.1',
+    version='1.1.0',
     description='A Python package to check if a number is odd or even.',
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
