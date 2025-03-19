@@ -9,6 +9,11 @@ setup(
     author='Nilay Sarma',
     packages=find_packages(),
     install_requires=[],
+    entry_points={
+        "console_scripts": [
+            "isoddeven=isoddeven.cli:main",
+        ],
+    },
     license="MIT",
     url="https://github.com/nilaysarma/isoddeven",
     classifiers=[
